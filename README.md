@@ -6,6 +6,6 @@ Tecnologías utilizadas:
 - HTML
 - CSS
 - JavaScript Vanilla
--Fetch API
+- Fetch API
 
 ![Frontend](https://i.ibb.co/RyVQyZy/todoList.png "Frontend")
