@@ -95,7 +95,7 @@ const Get = () => {
             todoList.className = 'list-tareas';
             buttonEdit.className = 'editButton';
             buttonDelete.className = 'editButton';
-            divElement.className = 'container-todo'
+            divElement.className = 'container-todo';
             todoList.appendChild(divElement);
             
         }

@@ -16,16 +16,18 @@ p {
 .form-todo {
     width: 700px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 40px;
     border-radius: 8px;
     color: white;
     background-color: #B6CBE1;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    height: auto;
 }
 .container {
     width: 500px;
+    height: auto;
 }
 .form-todo label {
     color: #001F3D;
@@ -35,12 +37,13 @@ p {
 
 input[type=text] {
     width: 100%;
-    margin: 8px 0;
+    height: 15%;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid #001F3D;
     background-color: transparent;
     margin-bottom: 20px;
+    outline: transparent;
 }
 
 .form-todo textarea {
