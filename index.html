@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>API TodoList</title>
+</head>
+<body>
+    <h1>Tareas por hacer</h1>
+    <form action="" method="POST" id="createTask" class="form-todo">
+        <div class="container">
+            <input type="hidden" name="Id" id="id">
+            <label for="">Nombre</label> <br>
+            <input type="text" name="Nombre" id="Nombre" class="name-input"> <br>
+            <label for="">Descripción</label> <br>
+            <textarea name="Descripción" id="Descripción" cols="30" rows="10"></textarea> <br>
+            <div class="send">
+                <input id="sendTask" type="submit" value="Crear" onclick="Guardar()" class="enviar">
+            </div>
+        </div>
+        
+    </form>
+    <h2>Tareas pendientes</h2>
+    <div id="todoList"></div>
+<script src="./app.js"></script>
+</body>
+</html>
